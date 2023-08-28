@@ -22,6 +22,8 @@ const Cryptocurrencies = ({ simplified }) => {
 
   if (isFetching) return <Loader />;
 
+  
+
   return (
     <>
       {!simplified && (
